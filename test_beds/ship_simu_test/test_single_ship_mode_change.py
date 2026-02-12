@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT))
 ### IMPORT SIMULATOR ENVIRONMENTS
 from env_wrappers.multiship_env.env import AssetInfo, ShipAsset, MultiShipEnv
 
-from simulator.ship_in_transit.sub_systems.ship_model import  ShipConfiguration, SimulationConfiguration, ShipModel
+from simulator.ship_in_transit.sub_systems.ship_model import  ShipConfiguration, SimulationConfiguration, ShipModel 
 from simulator.ship_in_transit.sub_systems.ship_engine import MachinerySystemConfiguration, MachineryMode, MachineryModeParams, MachineryModes, SpecificFuelConsumptionBaudouin6M26Dot3, SpecificFuelConsumptionWartila6L26, RudderConfiguration
 from simulator.ship_in_transit.sub_systems.LOS_guidance import LosParameters
 from simulator.ship_in_transit.sub_systems.obstacle import PolygonObstacle
@@ -24,6 +24,9 @@ from utils.get_path import get_ship_route_path, get_map_path
 from utils.prepare_map import get_gdf_from_gpkg, get_polygon_from_gdf
 from utils.animate import MapAnimator, PolarAnimator, animate_side_by_side
 from utils.plot_simulation import plot_ship_status, plot_ship_and_real_map
+
+from test_beds.ship_simu_test.mode_changer_helper import resilience_supervisor, apply_safe_state_overrides
+
 
 ### IMPORT TOOLS
 import argparse
@@ -49,7 +52,7 @@ parser.add_argument('--radius_of_acceptance', type=int, default=300, metavar='RO
                     help='ENV: radius of acceptance in meter for LOS algorithm (default: 300)')
 parser.add_argument('--lookahead_distance', type=int, default=1000, metavar='LD',
                     help='ENV: lookahead distance in meter for LOS algorithm (default: 1000)')
-parser.add_argument('--nav_fail_time', type=int, default=300, metavar='NAV_FAIL_TIME',
+parser.add_argument('--nav_fail_time', type=int, default=1500, metavar='NAV_FAIL_TIME',
                     help='ENV: Allowed recovery time in second from navigational failure warning condition (default: 300)')
 parser.add_argument('--ship_draw', type=bool, default=True, metavar='SHIP_DRAW',
                     help='ENV: record ship drawing for plotting and animation (default: True)')
@@ -164,14 +167,52 @@ mec_mode_params = MachineryModeParams(
     name_tag='MEC'
 )
 mec_mode = MachineryMode(params=mec_mode_params)
-mso_modes = MachineryModes(
-    [pto_mode, mec_mode, pti_mode]
+
+# I can write more modes here that kindof indicate what the fall back strategies would be
+######MORE MODES########
+
+pti_1dg_params = MachineryModeParams(
+    main_engine_capacity=0,
+    electrical_capacity=1 * diesel_gen_capacity,
+    shaft_generator_state=hybrid_shaft_gen_as_motor,
+    name_tag='PTI_1DG'
 )
+pti_1dg_mode = MachineryMode(params=pti_1dg_params)
+
+
+mec_blackout_params = MachineryModeParams(
+    main_engine_capacity=main_engine_capacity,
+    electrical_capacity=0,
+    shaft_generator_state=hybrid_shaft_gen_as_offline,
+    name_tag='MEC_BLACKOUT'
+)
+mec_blackout_mode = MachineryMode(params=mec_blackout_params)
+
+dp_safe_params = MachineryModeParams(
+    main_engine_capacity=0,
+    electrical_capacity=0,
+    shaft_generator_state=hybrid_shaft_gen_as_offline,
+    name_tag='DP_SAFE'
+)
+dp_safe_mode = MachineryMode(params=dp_safe_params)
+
+
+
+
+mso_modes = MachineryModes([
+    pto_mode, 
+    mec_mode, 
+    pti_mode,
+    pti_1dg_mode,
+    mec_blackout_mode,
+    dp_safe_mode
+    ])
+
 fuel_spec_me = SpecificFuelConsumptionWartila6L26()
 fuel_spec_dg = SpecificFuelConsumptionBaudouin6M26Dot3()
 machinery_config = MachinerySystemConfiguration(
     machinery_modes=mso_modes,
-    machinery_operating_mode=1,
+    machinery_operating_mode=0,
     linear_friction_main_engine=68,
     linear_friction_hybrid_shaft_generator=57,
     gear_ratio_between_main_engine_and_propeller=0.6,
@@ -180,7 +221,7 @@ machinery_config = MachinerySystemConfiguration(
     propeller_diameter=3.1,
     propeller_speed_to_torque_coefficient=7.5,
     propeller_speed_to_thrust_force_coefficient=1.7,
-    hotel_load=2000e3,
+    hotel_load=200e3,
     rated_speed_main_engine_rpm=1000,
     rudder_angle_to_sway_force_coefficient=50e3,
     rudder_angle_to_yaw_force_coefficient=500e3,
@@ -220,7 +261,7 @@ own_ship_los_guidance_parameters = LosParameters(
     integrator_windup_limit=4000
 )
 own_ship_desired_speed = 4.0
-own_ship_cross_track_error_tolerance = 750
+own_ship_cross_track_error_tolerance = 3000
 own_ship_initial_propeller_shaft_speed = 0
 own_ship_initial_propeller_shaft_acceleration = 0
 own_ship = ShipModel(
@@ -230,9 +271,9 @@ own_ship = ShipModel(
     current_model_config=current_model_config,
     wind_model_config=wind_model_config,
     machinery_config=machinery_config,                       
-    throttle_controller_gain=own_ship_throttle_controller_gains,
-    heading_controller_gain=own_ship_heading_controller_gains,
-    los_parameters=own_ship_los_guidance_parameters,
+    throttle_controller_gain=own_ship_throttle_controller_gains, #None
+    heading_controller_gain=own_ship_heading_controller_gains, #None
+    los_parameters=own_ship_los_guidance_parameters, #None
     name_tag='Own ship',
     route_name=own_ship_route_name,
     engine_steps_per_time_step=args.engine_step_count,
@@ -245,6 +286,9 @@ own_ship = ShipModel(
     colav_mode='sbmpc',
     print_status=True
 )
+
+
+
 own_ship_info = AssetInfo(
     # dynamic state (mutable)
     current_north       = own_ship.north,
@@ -281,6 +325,7 @@ env = MultiShipEnv(
     include_wind=True,
     include_current=True)
 
+import inspect
 
 ### THIS IS WHERE THE EPISODE HAPPENS
 episode = 1
@@ -288,19 +333,91 @@ while episode <= args.n_episodes:
     # Reset the environment at the beginning of episode
     env.reset()
     
-    # Print message
-    print("--- EPISODE " + str(episode) + " ---")
-    
     ## THIS IS WHERE THE SIMULATION HAPPENS
+    mach = assets[0].ship_model.ship_machinery_model
+
+
+
+    # Dwell-time tracking
+    last_mode = mach.operating_mode
+    last_mode_change_time = 0.0  # seconds
+    MIN_DWELL_S = 60.0           # tune as needed
+
     running_time = 0
+
+    
+    start_shutoff   = 2000
+    end_shutoff     = 3000
+
+    # turn_off_engine=False
+
+
+    # Initial engine availability (later: this will be updated by fault injection)
+    engine_status = {"ME": True, "DG1": True, "DG2": True, "HSG": True}
     while running_time < own_ship.int.sim_time and env.stop is False:
+        fault_active = (running_time >= start_shutoff) and (running_time < end_shutoff)
+        if fault_active:
+            engine_status = {"ME": False, "DG1": False, "DG2": True, "HSG": False}
+            # assets[0].ship_model.ship_machinery_model.omega= 0
+            # assets[0].ship_model.desired_speed = 0
+        else:
+            # recovery: back to healthy after fault window
+            engine_status = {"ME": True, "DG1": True, "DG2": True, "HSG": True}
+
+
+        # env.step(turn_off_engine=turn_off_engine)
         env.step()
-        
+
         # Update running time
+        # running_time = np.max([asset.ship_model.int.time for asset in assets])
+
+        # --- build "power demand" (simple placeholder, refine later) ---
+        required_hotel_power = machinery_config.hotel_load
+        # required_propulsion_power = 0.6 * main_engine_capacity if assets[0].ship_model.desired_speed > 0 else 0.0
+        required_propulsion_power = assets[0].ship_model.simulation_results['propulsion power [kw]'][-1]
+        # print(assets[0].ship_model.simulation_results['propulsion power [kw]'][-1])
+
+
+        # --- dwell time ---
+        time_in_mode = running_time - last_mode_change_time
+
+        # --- decision ---
+        decision = resilience_supervisor(
+            current_mode=mach.operating_mode,
+            engine_status=engine_status,
+            required_propulsion_power=required_propulsion_power,
+            required_hotel_power=required_hotel_power,
+            me_capacity=main_engine_capacity,
+            dg_capacity=diesel_gen_capacity,
+            min_dwell_s=MIN_DWELL_S,
+            time_in_mode_s=time_in_mode,
+        )
+
+        if decision.action in ("SWITCH_MODE", "ENTER_SAFE_STATE"):
+            if mach.operating_mode != decision.recommended_mode:
+                print(f"[t={running_time:.1f}s] {decision.action}: {mach.operating_mode} -> {decision.recommended_mode} | {decision.reason}")
+                mach.operating_mode = decision.recommended_mode
+                last_mode_change_time = running_time
+
+        # # #Always enforce safe-state behavior if DP_SAFE is active
+        # apply_safe_state_overrides(assets[0].ship_model)
+        # # print(engine_status)
+
+
+        # If DP_SAFE is active, force shutdown + drift behavior
+        # turn_off_engine = (str(mach.operating_mode).upper() == "DP_SAFE")
+        apply_safe_state_overrides(assets[0].ship_model)
+
+        # Now step the environment using the *updated* mode
+        # env.step() #turn_off_engine=turn_off_engine
+
+        # Update running time after stepping
         running_time = np.max([asset.ship_model.int.time for asset in assets])
     
     # Increment the episode
     episode += 1
+
+
 
 ################################## GET RESULTS ##################################
 
@@ -319,7 +436,7 @@ map_anim = MapAnimator(
 map_anim.run(fps=120, show=False, repeat=False)
 
 polar_anim = PolarAnimator(focus_asset=assets[0], interval_ms=500)
-polar_anim.run(fps=120, show=False, repeat=False)
+polar_anim.run(fps=240, show=False, repeat=False)
 
 # Place windows next to each other, same height, centered
 animate_side_by_side(map_anim.fig, polar_anim.fig,
@@ -329,7 +446,7 @@ animate_side_by_side(map_anim.fig, polar_anim.fig,
                      show=True)
 
 # Plot 1: Trajectory
-plot_ship_status(own_ship_asset, own_ship_results_df, plot_env_load=True, show=False)
+plot_ship_status(own_ship_asset, own_ship_results_df, plot_env_load=False, show=True)
 
 # Plot 2: Status plot
-plot_ship_and_real_map(assets, result_dfs, map_gdfs, show=True)
+plot_ship_and_real_map(assets, result_dfs, map_gdfs, show=False)

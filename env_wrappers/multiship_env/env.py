@@ -123,7 +123,7 @@ class MultiShipEnv:
         
         return
     
-    def step(self):
+    def step(self):#, turn_off_engine=False
         ''' 
             The method is used for stepping up the simulator for the ship asset
         '''
@@ -147,7 +147,7 @@ class MultiShipEnv:
         for i, asset in enumerate(self.assets):
             # Step
             if asset.ship_model.stop is False: asset.ship_model.step(env_args=env_args, 
-                                                                     asset_infos=asset_infos)   # If all asset is not stopped, step up
+                                                                     asset_infos=asset_infos) #turn_off_engine=turn_off_engine   # If all asset is not stopped, step up
             
             # Update asset.info
             asset.info.update(current_north     = asset.ship_model.north,

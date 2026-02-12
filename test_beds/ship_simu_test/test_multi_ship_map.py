@@ -470,15 +470,15 @@ animate_side_by_side(map_anim.fig, polar_anim.fig,
                      gap_px=16,
                      show=True)
 
-## Get the simulation results for all assets, and plot the asset simulation results
-result_dfs = []
-plot_env_load = [True, False, False] # Own ship, Target ship 1, Target ship 2
-for i, asset in enumerate(assets):
-    result_df = pd.DataFrame().from_dict(env.assets[i].ship_model.simulation_results)
-    result_dfs.append(result_df)
+# ## Get the simulation results for all assets, and plot the asset simulation results
+# result_dfs = []
+# plot_env_load = [True, False, False] # Own ship, Target ship 1, Target ship 2
+# for i, asset in enumerate(assets):
+#     result_df = pd.DataFrame().from_dict(env.assets[i].ship_model.simulation_results)
+#     result_dfs.append(result_df)
     
-    # Plot 1: Status plot
-    plot_ship_status(asset, result_df, plot_env_load=plot_env_load[i], show=False)
+#     # Plot 1: Status plot
+#     plot_ship_status(asset, result_df, plot_env_load=plot_env_load[i], show=False)
 
-# Plot 1: Ship and Map Plotting
-plot_ship_and_real_map(assets, result_dfs, map_gdfs, show=True)
+# # Plot 1: Ship and Map Plotting
+# plot_ship_and_real_map(assets, result_dfs, map_gdfs, show=True)

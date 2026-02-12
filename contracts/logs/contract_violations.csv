@@ -1,28 +1,147 @@
 time,subsystem,contract_id,message
-5.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
-2005.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2045.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2055.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+1210.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1215.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1220.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1225.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1230.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1235.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1240.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1245.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1250.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1255.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1260.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1265.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1270.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1275.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1280.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1285.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1330.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1335.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1340.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1345.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1350.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1355.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1360.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1365.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1370.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1375.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1380.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1385.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1390.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1400.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1405.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1410.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1415.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1420.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1425.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1430.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1475.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1480.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1485.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1490.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1495.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1500.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1505.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1510.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1515.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1520.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1525.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1530.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1535.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1540.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1545.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1550.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1555.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1560.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1565.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1615.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1620.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1625.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1630.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1635.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1640.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1645.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1650.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1655.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1660.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1665.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1670.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1675.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1680.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1685.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1690.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1745.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1750.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1755.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1760.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1765.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1770.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1775.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1780.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1785.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1790.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1795.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1800.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1805.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1810.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1815.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1870.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1875.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1880.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1885.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1890.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1895.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1900.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1905.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1910.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1915.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1920.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1925.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1930.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1990.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+1995.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2000.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2005.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2010.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2015.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2020.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2025.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2030.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2035.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2040.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2045.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2075.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 2105.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2105.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2110.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2115.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2120.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2125.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2130.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2135.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2140.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2145.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2145.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2150.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2155.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 2180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2195.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2205.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2205.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2225.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2235.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2245.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2245.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2255.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2245.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2250.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2255.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2260.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2265.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2285.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
@@ -38,40 +157,51 @@ time,subsystem,contract_id,message
 2375.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2385.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2395.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2395.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2410.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2410.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2415.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2415.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 2430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2440.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2440.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2445.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2445.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2455.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2495.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2495.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2500.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2505.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2505.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2510.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2515.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2525.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2535.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2545.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2545.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2545.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2555.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2565.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2565.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2565.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2585.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2615.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2615.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2615.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2645.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2655.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2650.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2655.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2660.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2665.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2675.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
@@ -79,15 +209,30 @@ time,subsystem,contract_id,message
 2700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2705.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2710.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2715.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2745.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2750.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2755.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2755.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2760.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2765.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2765.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2770.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2775.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2775.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2780.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2780.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2785.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2795.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2805.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2805.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2810.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2815.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2835.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
@@ -97,30 +242,51 @@ time,subsystem,contract_id,message
 2860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2865.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2885.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2885.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2890.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2895.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2900.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2905.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2915.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2925.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2915.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2920.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2925.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+2930.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2930.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2935.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2945.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2950.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+2945.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2950.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+2955.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 2960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2975.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2985.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 2995.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3015.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3015.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3020.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3025.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3025.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3030.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3035.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3040.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3045.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3045.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3050.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3055.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3060.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3060.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3065.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3065.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3065.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3070.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3075.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3080.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
@@ -128,41 +294,82 @@ time,subsystem,contract_id,message
 3115.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3115.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 3130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3145.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3155.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3145.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3150.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3155.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3160.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3165.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3175.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3165.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3170.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3175.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3185.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3185.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3190.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3195.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3200.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3205.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3210.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3215.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3220.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3225.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3225.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3225.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3230.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3235.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3245.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3245.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3250.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3255.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3260.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3275.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 3300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3305.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3305.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3310.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3315.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3315.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3315.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3325.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3330.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3335.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3340.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3345.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3345.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3350.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3355.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3365.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3375.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3370.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3375.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3380.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3385.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3390.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3400.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3405.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3420.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3405.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3410.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3415.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3415.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3420.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3465.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3455.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3455.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3460.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3465.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3470.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3475.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3495.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3495.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3505.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
@@ -177,42 +384,87 @@ time,subsystem,contract_id,message
 3555.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3565.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3575.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3565.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3570.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3575.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3580.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3585.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3590.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3590.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3595.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3595.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3600.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3605.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3605.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3620.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3620.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3625.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3625.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3630.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3635.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3670.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3660.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3665.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3665.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3670.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3675.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3675.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3680.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3685.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3715.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3725.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3725.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3735.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3735.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3745.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3750.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3750.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3755.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3755.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3760.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3760.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+3765.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3765.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3770.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3770.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3770.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 3775.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3785.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3795.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3810.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3815.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3815.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3825.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3835.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3845.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3845.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3850.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3855.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3865.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3865.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3875.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+3875.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 3885.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
@@ -222,128 +474,160 @@ time,subsystem,contract_id,message
 3905.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 3920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3920.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3925.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 3930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3935.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3940.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3970.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+3930.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3935.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3940.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3945.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3950.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3955.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3960.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3965.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3970.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3975.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3980.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3985.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3990.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+3995.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4000.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4005.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4005.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4010.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4015.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4020.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4025.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4025.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4025.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4030.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4035.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4035.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4040.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4040.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4045.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4045.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4050.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4055.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4060.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4065.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4065.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4065.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4070.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4070.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4075.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4075.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4075.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4085.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4080.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4085.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4090.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4095.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4105.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4105.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4110.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4115.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4120.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4125.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4125.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4125.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4130.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4135.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4140.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4145.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4165.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4165.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4170.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4175.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4190.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4180.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4185.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4190.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4195.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4200.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4205.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4215.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4225.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4225.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4230.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4235.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4240.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
 4245.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4270.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4275.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4280.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4285.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4290.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4295.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4295.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4300.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4305.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4310.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4315.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4320.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4325.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4330.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4335.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4340.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4345.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4330.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4335.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4335.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4340.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4345.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4350.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4355.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4360.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4360.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4360.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4365.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4365.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4365.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4375.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4375.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4380.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4385.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4380.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4385.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4390.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4390.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4395.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4405.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4415.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+4415.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4415.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4420.0,Rudder,G1,Rudder angle exceeds mechanical limits.
 4420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4425.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
 4425.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4430.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4435.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4445.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4455.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+4435.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4435.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4440.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4445.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4445.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4450.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4450.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4455.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4455.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4460.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4460.0,HeadingController,G1,Cross-track error exceeds allowed limit.
 4465.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4485.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4500.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4505.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4525.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4535.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4565.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4585.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4595.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4605.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4610.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4615.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4635.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4645.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4645.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4665.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4675.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4680.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4685.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4685.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4690.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4715.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4725.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4765.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4775.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4785.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4785.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4815.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4825.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4835.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4840.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4845.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4855.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4855.0,SystemLevel,G3,Navigation success criteria not satisfied.
+4465.0,Rudder,G1,Rudder angle exceeds mechanical limits.
+4465.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+4465.0,SystemLevel,G1,Grounding event occurred.
