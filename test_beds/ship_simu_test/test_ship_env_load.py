@@ -243,8 +243,8 @@ env = MultiShipEnv(
     current_model_config=current_model_config,
     wind_model_config=wind_model_config,
     args=args,
-    include_wave=True,
-    include_current=True,
+    include_wave=False,
+    include_current=False,
     include_wind=True)
 
 

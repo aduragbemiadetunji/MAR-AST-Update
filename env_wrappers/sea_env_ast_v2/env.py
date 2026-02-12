@@ -149,11 +149,11 @@ class SeaEnvASTv2(gym.Env):
         ### REINFORCEMENT LEARNING AGENT        
         ## Warm up environmental load states (Sea State 1, all direction to North)
         # Wave
-        self.Hs_wu = 0.3 
-        self.Tp_wu = 7.5 
+        self.Hs_wu = 8#0.3 
+        self.Tp_wu = 13#7.5 
         
         # Wind
-        self.U_w_bar_wu = self.sea_state_mixture.knot_to_ms(8.5)
+        self.U_w_bar_wu = self.sea_state_mixture.knot_to_ms(20)#8.5
         self.psi_ww_bar_wu = np.deg2rad(0.0)
         
         # Current

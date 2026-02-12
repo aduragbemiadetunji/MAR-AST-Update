@@ -530,7 +530,8 @@ class ShipModel(BaseShipModel):
         
         # Init navigational failure parameter
         self._traj_threshold_coeff = traj_threshold_coeff
-        self.init_navigational_failure_param()
+        if self.auto_pilot is not None:
+            self.init_navigational_failure_param()
         
         # Get stop_info
         self.stop_info = {
@@ -565,6 +566,9 @@ class ShipModel(BaseShipModel):
 
         # Default dictionary for simulation results
         self.simulation_results = defaultdict(list)
+
+        # Engine shutdown flag
+        self.turn_off_engine = False
     
     def init_navigational_failure_param(self):
         # Navigational warning time counter
@@ -885,7 +889,6 @@ class ShipModel(BaseShipModel):
                     power = self.simulation_results['power electrical [kw]'][-1]
                     available = self.simulation_results['available power electrical [kw]'][-1]
                     power_overload = check_condition.is_power_overload(power=power, available_power=available)
-
         push_flag('power_overload', power_overload, self.power_overload_array)
         if power_overload and self.print_status:
             print(self.name_tag, 'in', self.ship_machinery_model.operating_mode,
@@ -977,7 +980,7 @@ class ShipModel(BaseShipModel):
             segment_length = np.sqrt(segment_length_north**2 + segment_length_east**2)
             self._traj_threshold = segment_length * self._traj_threshold_coeff
     
-    def step(self, env_args=None, asset_infos=None):
+    def step(self, env_args=None, asset_infos=None): #turn_off_engine=False
         ''' 
             The method is used for stepping up the simulator for the ship asset
             
@@ -1063,6 +1066,11 @@ class ShipModel(BaseShipModel):
                 measured_speed = measured_speed,
                 measured_shaft_speed = measured_shaft_speed,
             )
+
+        # --- ENGINE SHUTDOWN OVERRIDE (minimal hook) ---
+        if getattr(self, "turn_off_engine", False):
+            throttle = 0.0
+
         
         # Update and integrate differential equations for current time step
         if self.auto_pilot is None:
@@ -1085,7 +1093,8 @@ class ShipModel(BaseShipModel):
         self.integrate_differentials()
         
         # Track the travel distance between route points
-        self.track_travel_distance()
+        if self.auto_pilot is not None:
+            self.track_travel_distance()
         
         # Evaluate the ship condition. If the ship stopped, immediately return
         self.evaluate_ship_condition(asset_infos)
@@ -1096,6 +1105,10 @@ class ShipModel(BaseShipModel):
         self.int.next_time()
         
         return
+    
+    # def reset_controller(self):
+    #     self.throttle_controller.reset()
+    #     self.auto_pilot.reset()
     
     def reset(self, seed=None, route=None):
         # Call the reset method from the parent class
@@ -1119,7 +1132,8 @@ class ShipModel(BaseShipModel):
             self.yaw_angle  = psi_0
         
         # Reset the navigational failure parameter
-        self.init_navigational_failure_param()
+        if self.auto_pilot is not None:
+            self.init_navigational_failure_param()
         
         # Reset stop_info
         self.stop_info = {

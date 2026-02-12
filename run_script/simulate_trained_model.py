@@ -109,16 +109,16 @@ if __name__ == "__main__":
     print("len(sim_results) =", len(env.assets[0].ship_model.simulation_results["time [s]"]))
 
 
-    ############
+    # ############
 
-    # DO CBD HERE
-    from contracts.contracts import evaluate_contracts_over_dataframe, ViolationLogger
-    from contracts.logs.violation_summary_by_contract_table import summarize_violations_by_contract
-    logger = ViolationLogger("contracts/logs/contract_violations.csv", append=False)
-    evaluate_contracts_over_dataframe(own_ship_results_df, env, logger, run_id="baseline_run")
-    pivot_table = summarize_violations_by_contract("contracts/logs/contract_violations.csv")
-    print(pivot_table)
-    ###########
+    # # DO CBD HERE
+    # from contracts.contracts import evaluate_contracts_over_dataframe, ViolationLogger
+    # from contracts.logs.violation_summary_by_contract_table import summarize_violations_by_contract
+    # logger = ViolationLogger("contracts/logs/contract_violations.csv", append=False)
+    # evaluate_contracts_over_dataframe(own_ship_results_df, env, logger, run_id="baseline_run")
+    # pivot_table = summarize_violations_by_contract("contracts/logs/contract_violations.csv")
+    # print(pivot_table)
+    # ###########
 
     # Build both animations (don’t show yet)
     repeat=False
