@@ -68,14 +68,16 @@ args = parser.parse_args()
 # -----------------------
 # GPKG settings (edit if your layer names differ)
 # -----------------------
-GPKG_PATH   = get_map_path(ROOT, "basemap.gpkg")       # <-- put your file here (or absolute path)
+GPKG_PATH   = get_map_path(ROOT, "Alesund_Langevag.gpkg")       # <-- put your file here (or absolute path)
 FRAME_LAYER = "frame_3857"
 OCEAN_LAYER = "ocean_3857"
 LAND_LAYER  = "land_3857"
 COAST_LAYER = "coast_3857"               # optional
 WATER_LAYER = "water_3857"               # optional
+FERRY_ROUTE_LAYER  = "ferry_routes_3857" #OPTIONAL
 
-frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf = get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER)
+
+frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf, ferry_route_gdf = get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER, FERRY_ROUTE_LAYER)
 map_gdfs = frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf
 
 map_data = get_polygon_from_gdf(land_gdf)   # list of exterior rings (E,N)
@@ -93,8 +95,8 @@ ship_config = ShipConfiguration(
     coefficient_of_deadweight_to_displacement=0.7,
     bunkers=200000,
     ballast=200000,
-    length_of_ship=80,
-    width_of_ship=16,
+    length_of_ship=70, #80
+    width_of_ship=14, #16
     added_mass_coefficient_in_surge=0.4,
     added_mass_coefficient_in_sway=0.4,
     added_mass_coefficient_in_yaw=0.4,
@@ -233,7 +235,7 @@ machinery_config = MachinerySystemConfiguration(
 
 ### CONFIGURE THE SHIP SIMULATION MODELS
 ## Own ship
-own_ship_route_filename = 'own_ship_route.txt'
+own_ship_route_filename = 'Alesund_Langevag_OS.txt'
 own_ship_route_name = get_ship_route_path(ROOT, own_ship_route_filename)
 
 start_E, start_N = np.loadtxt(own_ship_route_name)[0]  # expecting two columns: east, north
@@ -241,7 +243,7 @@ start_E, start_N = np.loadtxt(own_ship_route_name)[0]  # expecting two columns: 
 own_ship_config = SimulationConfiguration(
     initial_north_position_m=start_E,
     initial_east_position_m=start_N,
-    initial_yaw_angle_rad=np.deg2rad(-60.0),
+    initial_yaw_angle_rad=np.deg2rad(0.0),
     initial_forward_speed_m_per_s=0.0,
     initial_sideways_speed_m_per_s=0.0,
     initial_yaw_rate_rad_per_s=0.0,
@@ -260,7 +262,7 @@ own_ship_los_guidance_parameters = LosParameters(
     integral_gain=0.002,
     integrator_windup_limit=4000
 )
-own_ship_desired_speed = 4.0
+own_ship_desired_speed = 4.0 #4.0
 own_ship_cross_track_error_tolerance = 3000
 own_ship_initial_propeller_shaft_speed = 0
 own_ship_initial_propeller_shaft_acceleration = 0
@@ -346,7 +348,7 @@ while episode <= args.n_episodes:
     running_time = 0
 
     
-    start_shutoff   = 2000
+    start_shutoff   = 1000
     end_shutoff     = 3000
 
     # turn_off_engine=False
@@ -431,7 +433,8 @@ map_anim = MapAnimator(
     assets=assets,
     map_gdfs=map_gdfs,
     interval_ms=500,
-    status_asset_index=0  # flags for own ship
+    status_asset_index=0,  # flags for own ship
+    args=None   # None or args
 )
 map_anim.run(fps=120, show=False, repeat=False)
 
@@ -449,4 +452,4 @@ animate_side_by_side(map_anim.fig, polar_anim.fig,
 plot_ship_status(own_ship_asset, own_ship_results_df, plot_env_load=False, show=True)
 
 # Plot 2: Status plot
-plot_ship_and_real_map(assets, result_dfs, map_gdfs, show=False)
+plot_ship_and_real_map(assets, result_dfs, map_gdfs, show=True)

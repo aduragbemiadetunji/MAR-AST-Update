@@ -4,7 +4,7 @@ from shapely.geometry import Polygon, MultiPolygon
 # -----------------------
 # 1) LOAD + PLOT THE MAP (same axes we'll reuse for the SIT overlays)
 # -----------------------
-def get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER):
+def get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER, FERRY_ROUTE_LAYER):
     # -----------------------
     # 1) LOAD + PLOT THE MAP (same axes we'll reuse for the SIT overlays)
     # -----------------------
@@ -21,8 +21,15 @@ def get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAY
         water_gdf = gpd.read_file(GPKG_PATH, layer=WATER_LAYER)
     except Exception:
         water_gdf = gpd.GeoDataFrame(geometry=[], crs=ocean_gdf.crs)
+    try:
+        if FERRY_ROUTE_LAYER is not None:
+            ferry_route_gdf = gpd.read_file(GPKG_PATH, layer=FERRY_ROUTE_LAYER)
+        else:
+            ferry_route_gdf = gpd.GeoDataFrame(geometry=[], crs=ocean_gdf.crs)
+    except Exception:
+        ferry_route_gdf = gpd.GeoDataFrame(geometry=[], crs=ocean_gdf.crs)
         
-    return frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf
+    return frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf, ferry_route_gdf
 
 # --- Build map_data from land polygons in the SAME CRS as your route ---
 def get_polygon_from_gdf(gdf):

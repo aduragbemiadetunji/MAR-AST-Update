@@ -58,7 +58,7 @@ def is_grounding(map_obj:PolygonObstacle,
         
     # Get the obstacle margin due to all assets ship length
     # Margin is defined as a square patch enveloping the ships
-    margin = ship_length/2
+    margin = ship_length/20
         
     # Get the max reach and min reach of the ship
     min_north = n_pos - margin

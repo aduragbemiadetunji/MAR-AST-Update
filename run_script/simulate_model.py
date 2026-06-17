@@ -77,9 +77,10 @@ OCEAN_LAYER = "ocean_3857"
 LAND_LAYER  = "land_3857"
 COAST_LAYER = "coast_3857"               # optional
 WATER_LAYER = "water_3857"               # optional
+FERRY_ROUTE_LAYER  = None #"ferry_routes_3857" #OPTIONAL
 
-frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf = get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER)
-map_gdfs = frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf
+frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf, ferry_route_gdf = get_gdf_from_gpkg(GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER, FERRY_ROUTE_LAYER)
+map_gdfs = frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf, ferry_route_gdf
 
 map_data = get_polygon_from_gdf(land_gdf)   # list of exterior rings (E,N)
 map = [PolygonObstacle(map_data), frame_gdf]              # <-- reuse your existing simulator map type

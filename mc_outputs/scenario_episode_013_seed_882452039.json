@@ -1,0 +1,225 @@
+{
+  "type": "multi_fault",
+  "events": [
+    {
+      "start_s": 4232.553109218907,
+      "end_s": 4551.726058646316,
+      "duration_s": 319.1729494274099,
+      "fault_mask": {
+        "ME": false,
+        "DG1": false,
+        "DG2": false,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 7122.586630787682,
+      "end_s": 7459.488794703312,
+      "duration_s": 336.9021639156297,
+      "fault_mask": {
+        "ME": false,
+        "DG1": true,
+        "DG2": true,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 9621.963501837607,
+      "end_s": 9799.27748081909,
+      "duration_s": 177.3139789814829,
+      "fault_mask": {
+        "ME": true,
+        "DG1": true,
+        "DG2": false,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 10980.760803831678,
+      "end_s": 11427.046399351426,
+      "duration_s": 446.28559551974854,
+      "fault_mask": {
+        "ME": false,
+        "DG1": true,
+        "DG2": false,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 12484.55097780756,
+      "end_s": 12977.139364294273,
+      "duration_s": 492.588386486713,
+      "fault_mask": {
+        "ME": true,
+        "DG1": false,
+        "DG2": true,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 14902.532579985134,
+      "end_s": 15354.417059348629,
+      "duration_s": 451.88447936349473,
+      "fault_mask": {
+        "ME": true,
+        "DG1": true,
+        "DG2": true,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 17702.771077341757,
+      "end_s": 17999.10584569157,
+      "duration_s": 296.334768349815,
+      "fault_mask": {
+        "ME": true,
+        "DG1": false,
+        "DG2": false,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 19016.59478983325,
+      "end_s": 19286.002726487535,
+      "duration_s": 269.40793665428816,
+      "fault_mask": {
+        "ME": false,
+        "DG1": false,
+        "DG2": true,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 21276.074054513727,
+      "end_s": 21605.46027737085,
+      "duration_s": 329.38622285712336,
+      "fault_mask": {
+        "ME": false,
+        "DG1": true,
+        "DG2": true,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 24033.04746000678,
+      "end_s": 24344.102807203635,
+      "duration_s": 311.0553471968565,
+      "fault_mask": {
+        "ME": true,
+        "DG1": true,
+        "DG2": false,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 27062.3384253978,
+      "end_s": 27251.576183698642,
+      "duration_s": 189.2377583008424,
+      "fault_mask": {
+        "ME": false,
+        "DG1": true,
+        "DG2": false,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 27906.03451445133,
+      "end_s": 28239.37910807535,
+      "duration_s": 333.3445936240198,
+      "fault_mask": {
+        "ME": false,
+        "DG1": false,
+        "DG2": true,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 29303.384059486718,
+      "end_s": 29694.870090004322,
+      "duration_s": 391.4860305176028,
+      "fault_mask": {
+        "ME": true,
+        "DG1": false,
+        "DG2": false,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 31663.637001754236,
+      "end_s": 31911.932500088224,
+      "duration_s": 248.2954983339862,
+      "fault_mask": {
+        "ME": true,
+        "DG1": true,
+        "DG2": true,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 34579.83858676632,
+      "end_s": 35030.12985100673,
+      "duration_s": 450.2912642404082,
+      "fault_mask": {
+        "ME": true,
+        "DG1": false,
+        "DG2": false,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 37283.617259573104,
+      "end_s": 37760.0888673368,
+      "duration_s": 476.4716077636961,
+      "fault_mask": {
+        "ME": false,
+        "DG1": false,
+        "DG2": false,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 39582.679572703535,
+      "end_s": 39845.00456105719,
+      "duration_s": 262.3249883536563,
+      "fault_mask": {
+        "ME": false,
+        "DG1": false,
+        "DG2": true,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 41053.10273938595,
+      "end_s": 41553.04940804922,
+      "duration_s": 499.94666866326975,
+      "fault_mask": {
+        "ME": false,
+        "DG1": true,
+        "DG2": false,
+        "HSG": true
+      }
+    },
+    {
+      "start_s": 42438.33698164936,
+      "end_s": 42593.71359780815,
+      "duration_s": 155.37661615879426,
+      "fault_mask": {
+        "ME": false,
+        "DG1": false,
+        "DG2": true,
+        "HSG": false
+      }
+    },
+    {
+      "start_s": 44889.072171491855,
+      "end_s": 45261.90078994288,
+      "duration_s": 372.82861845102934,
+      "fault_mask": {
+        "ME": true,
+        "DG1": true,
+        "DG2": false,
+        "HSG": false
+      }
+    }
+  ]
+}

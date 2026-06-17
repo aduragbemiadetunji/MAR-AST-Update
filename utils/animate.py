@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, FFMpegWriter
-from matplotlib.patches import Polygon, Rectangle
+from matplotlib.patches import Polygon, Rectangle, Circle
 from matplotlib import gridspec as mpl_gs
 from matplotlib.patches import FancyArrowPatch
 from pathlib import Path
@@ -9,16 +9,18 @@ from pathlib import Path
 # Shared helpers
 # =========================
 
-def draw_real_map(ax, land_gdf, ocean_gdf, water_gdf, coast_gdf, frame_gdf):
+def draw_real_map(ax, land_gdf, ocean_gdf, water_gdf, coast_gdf, frame_gdf, ferry_route_gdf):
     # Draw order
     if not land_gdf.empty:
-        land_gdf.plot(ax=ax, facecolor="#e6e6e6", edgecolor="#bbbbbb", linewidth=0.3, zorder=0)
+        land_gdf.plot(ax=ax, facecolor="#e6e6e6", edgecolor="#bbbbbb", linewidth=0.3, zorder=0, label='Land')
     if not ocean_gdf.empty:
-        ocean_gdf.plot(ax=ax, facecolor="#a0c8f0", edgecolor="none", zorder=1)
+        ocean_gdf.plot(ax=ax, facecolor="#a0c8f0", edgecolor="none", zorder=1, label='Ocean')
     if not water_gdf.empty:
-        water_gdf.plot(ax=ax, facecolor="#a0c8f0", edgecolor="#74a8d8", linewidth=0.4, alpha=0.95, zorder=2)
+        water_gdf.plot(ax=ax, facecolor="#a0c8f0", edgecolor="#74a8d8", linewidth=0.4, alpha=0.95, zorder=2, label='Shallow Water')
     if not coast_gdf.empty:
-        coast_gdf.plot(ax=ax, color="#2f7f3f", linewidth=1.2, zorder=3)
+        coast_gdf.plot(ax=ax, color="#a0c8f0", linewidth=1.2, zorder=3, label='Coastline')
+    if not ferry_route_gdf.empty:
+        ferry_route_gdf.plot(ax=ax, color="#432466", linestyle='--', linewidth=1.2, zorder=3, label='Traffic Separation Scheme')
 
     # Keep the full frame extent (avoid aspect cropping)
     if frame_gdf is not None and not frame_gdf.empty:
@@ -135,14 +137,15 @@ class MapAnimator:
     - Safe index clamping for status arrays
     - 3-state navigation box via _nav_status(): INACTIVE / WARNING / ACTIVE
     """
-    def __init__(self, assets, map_gdfs, interval_ms=500, status_asset_index=0):
+    def __init__(self, assets, map_gdfs, interval_ms=500, status_asset_index=0, args=None):
         self.assets = assets
         self.interval = interval_ms
         self.focus_idx = status_asset_index
         self.stop_requested = False
+        self.args = args
 
         # NOTE: order here should match your draw_real_map signature
-        frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf = map_gdfs
+        frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf, ferry_route_gdf = map_gdfs
 
         def sr(a, k): return np.asarray(a.ship_model.simulation_results[k])
         self.t = sr(self.assets[0], 'time [s]')  # assume aligned
@@ -181,14 +184,25 @@ class MapAnimator:
         self.ax_map   = self.fig.add_subplot(gs[0, 0])
         self.ax_stat  = self.fig.add_subplot(gs[1, 0]); self.ax_stat.set_axis_off()
 
-        draw_real_map(self.ax_map, land_gdf, ocean_gdf, water_gdf, coast_gdf, frame_gdf)
+        draw_real_map(self.ax_map, land_gdf, ocean_gdf, water_gdf, coast_gdf, frame_gdf, ferry_route_gdf)
         self.ax_map.set_title("Ship Trajectory")
 
         # Static routes
         for s in self.series:
             if s['route_e'] is not None and s['route_n'] is not None:
-                self.ax_map.plot(s['route_e'], s['route_n'], '--', alpha=0.55, zorder=6)
+                self.ax_map.plot(s['route_e'], s['route_n'], '--', alpha=0.55, zorder=6, label=f"{s['label']} Route")
                 self.ax_map.scatter(s['route_e'], s['route_n'], marker='x', alpha=0.7, zorder=7)
+
+                if self.args:
+                    for e, n in zip(s['route_e'], s['route_n']):
+                        circ = Circle(
+                        (e, n),
+                        radius=self.args.radius_of_acceptance,
+                        fill=True,
+                        color='red',
+                        alpha=0.2
+                    )
+                        self.ax_map.add_patch(circ)
 
         # Dynamic artists
         self.trails, self.outlines = [], []
@@ -197,6 +211,7 @@ class MapAnimator:
             ol, = self.ax_map.plot([], [], lw=1.4, zorder=12)
             tr.set_animated(True); ol.set_animated(True)
             self.trails.append(tr); self.outlines.append(ol)
+
         self.ax_map.legend(loc='upper right')
 
         self.time_text = self.ax_map.text(0.01, 0.97, '',

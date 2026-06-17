@@ -2,21 +2,18 @@
 # 4. Throttle Controller Contract
 # ---------------------------------------------------------------------------
 
-from typing import Dict, Optional, Sequence
+from typing import Optional
 import numpy as np
-import os
-import csv
-import json
 
 from contracts.helpers import _is_finite_array
+
 
 class ThrottleControllerContract:
     NAME = "ThrottleController"
     MESSAGES = {
         "A1": "Desired speed is invalid or outside allowable range.",
-        "G1": "Throttle controller failed to match shaft speed to desired speed.",
+        "G1": "Propulsion command did not produce shaft response consistent with the requested speed.",
     }
-
 
     def __init__(
         self,
@@ -24,30 +21,42 @@ class ThrottleControllerContract:
         shaft_speed_cmd: np.ndarray,
         vmax: float,
         tolerance: float,
+        actual_shaft_speed: Optional[np.ndarray] = None,
+        min_shaft_speed_rpm: float = 5.0,
     ):
         self.desired_speed = desired_speed
         self.shaft_speed_cmd = shaft_speed_cmd
         self.vmax = vmax
         self.tolerance = tolerance
+        self.actual_shaft_speed = actual_shaft_speed
+        self.min_shaft_speed_rpm = min_shaft_speed_rpm
         self.contract_status = {"A1": None, "G1": None}
 
     def check_A1(self):
-        v = np.asarray(self.desired_speed)
+        v = np.asarray(self.desired_speed, dtype=float)
         finite = _is_finite_array(v)
         within_range = bool(np.all((0.0 <= v) & (v <= self.vmax)))
         self.contract_status["A1"] = finite and within_range
         return self.contract_status["A1"]
-    
-    def check_G1(self):
-        # If A1 fails, we don't evaluate G1 (it becomes undefined)
-        # if not self.contract_status["A1"]:
-        #     self.contract_status["G1"] = None
-        #     return None
 
-        v_des = np.asarray(self.desired_speed)
-        v_cmd = np.asarray(self.shaft_speed_cmd)
-        err = np.abs(v_cmd - v_des)#check this with data sheet, evaluation does not make sense 1.1
-        self.contract_status["G1"] =True# bool(np.all(err <= self.tolerance))
+    def check_G1(self):
+        v_des = np.asarray(self.desired_speed, dtype=float)
+        actual = np.asarray(
+            self.actual_shaft_speed if self.actual_shaft_speed is not None else self.shaft_speed_cmd,
+            dtype=float,
+        )
+
+        if not _is_finite_array(actual):
+            self.contract_status["G1"] = False
+            return self.contract_status["G1"]
+
+        desired = float(np.nanmax(v_des)) if v_des.size else 0.0
+        actual_rpm = float(np.nanmax(np.abs(actual))) if actual.size else 0.0
+
+        if desired <= self.tolerance:
+            self.contract_status["G1"] = bool(actual_rpm <= self.min_shaft_speed_rpm)
+        else:
+            self.contract_status["G1"] = bool(actual_rpm >= self.min_shaft_speed_rpm)
         return self.contract_status["G1"]
 
     def evaluate(self, logger=None, t=None, meta=None):
@@ -59,13 +68,13 @@ class ThrottleControllerContract:
                 if value is False:
                     message = self.MESSAGES.get(
                         clause,
-                        f"{self.NAME} contract {clause} violated."
+                        f"{self.NAME} contract {clause} violated.",
                     )
                     logger.log(
                         time=t,
                         subsystem=self.NAME,
                         contract_id=clause,
-                        message=message
+                        message=message,
                     )
 
         return self.contract_status

@@ -1,0 +1,561 @@
+time,subsystem,contract_id,message
+0.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+50.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+60.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+60.0,SystemLevel,G5,Travel distance or time out of expected bounds.
+70.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+70.0,SystemLevel,G5,Travel distance or time out of expected bounds.
+80.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+90.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+7260.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7270.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7270.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7280.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7290.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7300.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7310.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7320.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7330.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7340.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7340.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7350.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7360.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7370.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7380.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7390.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7400.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7410.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7410.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7420.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7430.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7440.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7450.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7460.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7470.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7480.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7480.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7490.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7500.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7510.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7520.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7530.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7540.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7550.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7550.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7560.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7570.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7580.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7590.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7600.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7610.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7620.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7620.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7630.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7640.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7650.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7660.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7670.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7680.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7690.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7690.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7700.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7710.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7720.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7730.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7740.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7750.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7760.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7760.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7770.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7780.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7790.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7800.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7810.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7820.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7830.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+8820.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8830.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8840.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8850.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8860.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8870.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8880.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8890.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8900.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8910.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8920.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8930.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8940.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8950.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8960.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8970.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8980.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+8990.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9000.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9010.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9020.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9030.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11080.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11090.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+11090.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11100.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11110.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11120.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11130.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11140.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11150.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11160.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+11160.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11170.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11180.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11190.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11200.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11210.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11230.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+11230.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11240.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11250.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11260.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11270.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11280.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11300.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+11300.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11310.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11320.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11330.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11340.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11350.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11370.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+11370.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11380.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11390.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11400.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11410.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11420.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11430.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+11440.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+11440.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11450.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16000.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+16010.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+16010.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16020.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16030.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16040.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16050.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16060.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16070.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+16080.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+16080.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16090.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16100.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16110.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16120.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16130.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16140.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+16150.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+16150.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16160.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16170.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16180.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16190.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16200.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16210.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+16220.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+16220.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16230.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16240.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16250.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16260.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16270.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16280.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+16290.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+16290.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16300.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16310.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+16320.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18200.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18210.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18220.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18230.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18240.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18250.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18260.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18270.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18280.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18290.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18300.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18310.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18320.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18330.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18340.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18350.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18360.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18370.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18380.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18390.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18400.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18410.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18420.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18430.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18440.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18450.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18460.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18470.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18480.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18490.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18500.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18510.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18520.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18530.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18540.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18550.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18560.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18570.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18580.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18590.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18600.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18610.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18620.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18630.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18640.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18650.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18660.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+18670.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20310.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20320.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20320.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20330.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20340.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20350.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20360.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20370.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20380.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20390.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20390.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20400.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20410.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20420.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20430.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20440.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20450.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20460.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20460.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20470.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20480.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20490.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20500.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20510.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20520.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20530.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20530.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20540.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20550.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20560.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20570.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20580.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20590.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20600.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20600.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20610.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20620.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20630.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20640.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20650.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20660.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20670.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20670.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20680.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20690.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20700.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20710.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20720.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20730.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+20740.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+20740.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20750.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+20760.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+21340.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21350.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21370.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21380.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21390.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21400.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21410.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21420.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21430.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21440.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21450.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21460.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21470.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21480.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21490.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21500.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21510.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21520.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21530.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21540.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21550.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21560.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21570.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21580.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21590.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21600.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21610.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21620.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21630.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21640.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21650.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21660.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21670.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21680.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+21690.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25640.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25650.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25660.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25670.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25680.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25690.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25700.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25710.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25720.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25730.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25740.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25750.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25760.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25770.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25780.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25790.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25800.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25810.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25820.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25830.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25840.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25850.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25860.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25870.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25880.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25890.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25900.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25910.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25920.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25930.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25940.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25950.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25960.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25970.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25980.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+25990.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26000.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26010.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26020.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26030.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26040.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26050.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26060.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26070.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26080.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26090.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26100.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26110.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26120.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26130.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26140.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26150.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26150.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26160.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26160.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26170.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26170.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26180.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26180.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26190.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26190.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26200.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26200.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26210.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26210.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26220.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+26230.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26240.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26250.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26260.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26270.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26280.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26290.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26300.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+26310.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+30580.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+30590.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+30600.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+30610.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+34850.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34860.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34870.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34880.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34890.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34900.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34910.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34920.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34930.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34940.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34950.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34960.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34970.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34980.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+34990.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35000.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35010.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35020.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35030.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35040.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35050.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35060.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35070.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35080.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35090.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35100.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35110.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35120.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35130.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35140.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35150.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35160.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35170.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35180.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35190.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35200.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35210.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35230.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35240.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35250.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35260.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35270.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35280.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35300.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35310.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35590.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+35600.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37190.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37200.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37210.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37230.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37240.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37250.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37260.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37270.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37280.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37300.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37310.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37320.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37330.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37340.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37350.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37370.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37380.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37390.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37400.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37410.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37420.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37430.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37440.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37450.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37460.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37470.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37480.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37490.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37500.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37510.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37520.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37530.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37540.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37550.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37560.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37570.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37580.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37590.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37600.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37610.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37620.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37630.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37640.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37650.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37660.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37670.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37680.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37690.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37700.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37700.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37710.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37710.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37720.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37730.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37740.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37750.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37760.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37770.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+37780.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+39010.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39020.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39030.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39040.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39050.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39060.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39070.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39080.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39090.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39100.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39110.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39120.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39130.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39140.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39150.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39160.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39170.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39180.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39190.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39200.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39210.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39230.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39240.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39250.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39260.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39270.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39280.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39300.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39310.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39320.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39330.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39340.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39350.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+40960.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+40970.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41030.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41040.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41100.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41110.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41170.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41180.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41240.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41250.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41310.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41320.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41380.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41390.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41450.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41460.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41520.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41530.0,Machinery,A2,Machinery mode switching violates minimum dwell time.

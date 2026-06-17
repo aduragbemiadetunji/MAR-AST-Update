@@ -1,0 +1,329 @@
+time,subsystem,contract_id,message
+0.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+50.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+60.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+70.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+80.0,HeadingController,A2,Ship speed or rudder authority insufficient for heading control.
+3140.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+3150.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+3160.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+3170.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+6100.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+6110.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+6170.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+6180.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7370.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7370.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7380.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7390.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7400.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7410.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7420.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7430.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7440.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7440.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7450.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7460.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7470.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7480.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7490.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7500.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7510.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7510.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7520.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7530.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7540.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7550.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7560.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7570.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7580.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7580.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7590.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7600.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7610.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7620.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7630.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7640.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7650.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7650.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7660.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7670.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7680.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7690.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7700.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7710.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+7720.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+7720.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7730.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7740.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7750.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7760.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+7770.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+9470.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9480.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+9540.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9550.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+9610.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9620.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+9680.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9690.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+9750.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9760.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+9820.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9830.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+9890.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+9900.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+10850.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10860.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10870.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10880.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10890.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10900.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10910.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10920.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10930.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10940.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10950.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10960.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10970.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10980.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+10990.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11000.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11010.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11020.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11030.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11040.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11050.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11060.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11070.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11080.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11090.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11100.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11110.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+11120.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12810.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12820.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12830.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12840.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12850.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12860.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12870.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12880.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12890.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12900.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12910.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12920.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12930.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12940.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12950.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12960.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12970.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12980.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+12990.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13000.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13010.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13020.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13030.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13040.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13050.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13060.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13070.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13080.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13090.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13100.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13110.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13120.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13130.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13140.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13150.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13160.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13170.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13180.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13190.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13200.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13210.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13220.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13230.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13240.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13250.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13260.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13270.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+13280.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+17240.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17250.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17260.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17270.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17280.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17300.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17310.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17320.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17330.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17340.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17350.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17370.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17380.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17390.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17400.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17410.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17420.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17430.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17440.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17450.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17460.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17470.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17480.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17490.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17500.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17510.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+17520.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+19150.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+19160.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+19220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+19230.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+19290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+19300.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+19360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+19370.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+23970.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+23980.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+23980.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+23990.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24000.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24010.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24020.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24030.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24040.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+24050.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+24050.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24060.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24070.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24080.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24090.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24100.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24110.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+24120.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+24120.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24130.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24140.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24150.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24160.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24170.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24180.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+24190.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+24190.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24200.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24210.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24220.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24230.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+24240.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+29720.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+29730.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+29790.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+29800.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+29860.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+29870.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+29930.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+29940.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+30000.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+30010.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+30070.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+30080.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+33580.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+33590.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+33600.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+33610.0,Rudder,G2,Rudder angle rate exceeds actuator limits.
+36970.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+36980.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37040.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37050.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37110.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37120.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37180.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37190.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37250.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37260.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37320.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37330.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+37390.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+37400.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+39400.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+39410.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41600.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41610.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41670.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41680.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41740.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41750.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41810.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41820.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41880.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41890.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+41950.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+41960.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+43290.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+43300.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+43300.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43310.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43320.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43330.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43340.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43350.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43360.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+43370.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+43370.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43380.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43390.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43400.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43410.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43420.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43430.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+43440.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+43440.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43450.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43460.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43470.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43480.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43490.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43500.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+43510.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+43510.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43520.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43530.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43540.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43550.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43560.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43570.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+43580.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+43580.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43590.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43600.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+43610.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44010.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+44020.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+44020.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44030.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44040.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44050.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44060.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44070.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44080.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+44090.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+44090.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44100.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44110.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44120.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44130.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44140.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44150.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+44160.0,Machinery,A2,Machinery mode switching violates minimum dwell time.
+44160.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44170.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44180.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44190.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44200.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44210.0,Machinery,G4,Active machinery mode is infeasible for the current engine availability.
+44220.0,ThrottleController,G1,Propulsion command did not produce shaft response consistent with the requested speed.
+44230.0,Machinery,A2,Machinery mode switching violates minimum dwell time.

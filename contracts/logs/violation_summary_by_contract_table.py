@@ -32,5 +32,7 @@ def summarize_violations_by_contract(csv_path):
 
 
 
-pivot_table = summarize_violations_by_contract("contracts/logs/contract_violations.csv")
+# pivot_table = summarize_violations_by_contract("contracts/logs/contract_violations.csv")
+# pivot_table = summarize_violations_by_contract("mc_outputs\\violations_episode_001_seed_1667601611.csv")
+pivot_table = summarize_violations_by_contract("multi_ship_mc_outputs\\violations_episode_001_seed_1667601611.csv")
 print(pivot_table)

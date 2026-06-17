@@ -1,633 +1,1457 @@
 time,subsystem,contract_id,message
-1210.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1215.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1220.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1225.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1230.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1235.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1240.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1245.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1250.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1255.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1260.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1265.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1270.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1275.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1280.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1285.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1330.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1335.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1340.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1345.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1350.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1355.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1360.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1365.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1370.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1375.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1380.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1385.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1390.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1400.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1405.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1410.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1415.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1420.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1425.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1430.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1475.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1480.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1485.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1490.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1495.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1500.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1505.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1510.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1515.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1520.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1525.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1530.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1535.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1540.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1545.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1550.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1555.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1560.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1565.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1615.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1620.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1625.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1630.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1635.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1640.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1645.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1650.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1655.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1660.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1665.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1670.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1675.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1680.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1685.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1690.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1745.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1750.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1755.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1760.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1765.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1770.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1775.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1780.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1785.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1790.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1795.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1800.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1805.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1810.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1815.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1870.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1875.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1880.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1885.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1890.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1895.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1900.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1905.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1910.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1915.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1920.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1925.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1930.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1990.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-1995.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2000.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2005.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2010.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2015.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2020.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2025.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2030.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2035.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2040.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2045.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2075.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2105.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2105.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2110.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2115.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2120.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2125.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2130.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2135.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2140.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2145.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2145.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2150.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2155.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2195.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2205.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2205.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2225.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2235.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2245.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2245.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2250.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2255.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2260.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2265.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2285.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2295.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2315.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2345.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2355.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2365.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2375.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2385.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2395.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2395.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2410.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2415.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2415.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2440.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2445.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2445.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2455.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2495.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2495.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2500.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2505.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2505.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2510.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2515.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2525.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2535.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2545.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2545.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2555.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2565.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2565.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2585.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2615.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2615.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2645.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2650.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2655.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2660.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2665.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2675.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2695.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2705.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2710.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2715.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2745.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2750.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2755.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2755.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2760.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2765.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2765.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2770.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2775.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2775.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2780.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2780.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2785.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2795.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2805.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2805.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2810.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2815.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2835.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2845.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2855.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2855.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2865.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2885.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2885.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2890.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2895.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2900.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2905.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2915.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2915.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2920.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2925.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2930.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-2930.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2935.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2945.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2945.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2950.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2955.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-2960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2975.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2985.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-2995.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3015.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3015.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3020.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3025.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3025.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3030.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3035.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3040.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3045.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3045.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3050.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3055.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3060.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3065.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3065.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3070.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3075.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3080.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3095.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3115.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3115.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3145.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3150.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3155.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3160.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3165.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3165.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3170.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3175.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3185.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3185.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3190.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3195.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3200.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3205.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3210.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3215.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3220.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3225.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3225.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3225.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3230.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3235.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3245.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3245.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3250.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3255.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3260.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3305.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3305.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3310.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3315.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3315.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3325.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3330.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3335.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3340.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3345.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3345.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3350.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3355.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3365.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3370.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3375.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3380.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3385.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3390.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3400.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3405.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3405.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3410.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3415.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3415.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3420.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3455.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3455.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3460.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3465.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3470.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3475.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3495.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3495.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3505.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3515.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3525.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3535.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3540.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3545.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3555.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3565.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3565.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3570.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3575.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3580.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3585.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3590.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3590.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3595.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3595.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3600.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3605.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3605.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3620.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3625.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3625.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3630.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3635.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3660.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3665.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3665.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3670.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3675.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3675.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3680.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3685.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3715.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3725.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3725.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3735.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3735.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3745.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3750.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3750.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3755.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3755.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3760.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3760.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3765.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3765.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3770.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3770.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-3775.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3785.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3795.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3810.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3815.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3815.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3825.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3835.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3845.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3845.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3850.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3855.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3865.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3865.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3875.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3875.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-3885.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3890.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3895.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3900.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3905.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3920.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3925.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-3930.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3935.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3940.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3945.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3950.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3955.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3960.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3965.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3970.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3975.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3980.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3985.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3990.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-3995.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4000.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4005.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4005.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4010.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4015.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4020.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4025.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4025.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4030.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4035.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4035.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4040.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4045.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4045.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4050.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4055.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4060.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4065.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4065.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4065.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4070.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4070.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4075.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4075.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4075.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4080.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4085.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4090.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4095.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4105.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4105.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4110.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4115.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4120.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4125.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4125.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4130.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4135.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4140.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4145.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4165.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4165.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4170.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4175.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4180.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4185.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4190.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4195.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4200.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4205.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4215.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4225.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4225.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4230.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4235.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4240.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4245.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4270.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4275.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4280.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4285.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4290.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4295.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4295.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4300.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4305.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4310.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4315.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4320.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4325.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4330.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4335.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
-4335.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4340.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4345.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4350.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4355.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4360.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4365.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4365.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4375.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4375.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4380.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4385.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4390.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4395.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4395.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4405.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4415.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4415.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4420.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4425.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4425.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4430.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4435.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4435.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4435.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4440.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4445.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4445.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4450.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4450.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4455.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4455.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4460.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4460.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4465.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
-4465.0,Rudder,G1,Rudder angle exceeds mechanical limits.
-4465.0,HeadingController,G1,Cross-track error exceeds allowed limit.
-4465.0,SystemLevel,G1,Grounding event occurred.
+7000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7000.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7050.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7070.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7080.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7090.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7100.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7100.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7110.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7120.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7120.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7140.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7170.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7170.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7180.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7190.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7190.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7200.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7210.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7220.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7220.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7230.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7240.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7250.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7260.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7270.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7280.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7280.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7290.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7290.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7300.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7320.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7330.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7340.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7340.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7350.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7360.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7360.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7370.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7380.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7390.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7410.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7420.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7430.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7440.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7450.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7460.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7460.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7470.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7480.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7500.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7510.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7520.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7520.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7520.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7530.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7530.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7530.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7540.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7540.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7540.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7550.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7550.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7560.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7560.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7570.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7570.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7580.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7580.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7590.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7590.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7590.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7600.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7610.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7610.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7610.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7620.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7620.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7640.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7640.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7640.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7650.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7650.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7660.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7670.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7670.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7680.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7680.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7690.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7690.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7700.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7700.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7710.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7710.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7720.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7720.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7720.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7730.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7740.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7740.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7750.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7750.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7760.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7760.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7760.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+7770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7770.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7770.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7780.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7780.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7790.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7790.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7800.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7810.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7820.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7820.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7830.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7830.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7840.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7840.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7850.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7850.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+7860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7860.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7870.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7890.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7890.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7900.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7900.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7940.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7950.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7970.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7980.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7980.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+7990.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+7990.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8000.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8010.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8020.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8040.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8050.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8060.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8070.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8080.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8080.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8090.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8090.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8090.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8100.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8100.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8100.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8110.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8110.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8120.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8120.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8120.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8120.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8130.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8140.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8140.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8150.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8160.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8170.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8170.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8170.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8180.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8180.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8190.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8190.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8190.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8200.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8200.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8210.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8210.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8220.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8220.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8220.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8230.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8230.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8240.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8240.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8250.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8250.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8260.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8260.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8270.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8270.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8280.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8280.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8290.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8290.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8290.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8300.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8300.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8310.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8320.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8320.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8330.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8330.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8340.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8340.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8340.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8350.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8350.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8360.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8360.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8370.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8380.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8390.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8390.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8410.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8420.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8430.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8440.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8450.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8450.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8460.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8460.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8460.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8470.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8470.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8480.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8480.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8490.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8490.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8500.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8500.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8510.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8510.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8520.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8520.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8530.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8530.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8540.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8540.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8540.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8550.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8550.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8560.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8560.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8570.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8580.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8580.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8590.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8590.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8590.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8600.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8600.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8610.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8610.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8620.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8630.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8640.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8640.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8640.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8650.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8650.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8650.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8660.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8660.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8670.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8670.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8670.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8680.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8680.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8680.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8690.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8690.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8700.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8710.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8720.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8720.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8720.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8730.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8740.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+8750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8760.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8770.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8780.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8780.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8790.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8790.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8800.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8810.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8820.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8830.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8840.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8850.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8860.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8870.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8880.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8890.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8890.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+8900.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8900.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8910.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8930.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8950.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8950.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8960.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8970.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8970.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8980.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+8980.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+8990.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9000.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9010.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9020.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9040.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9050.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9060.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9090.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9090.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9100.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9100.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9110.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9120.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9140.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9170.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9170.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9190.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9200.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9210.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9220.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9220.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9230.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9240.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9250.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9260.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9270.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9280.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9280.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9290.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9290.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9300.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9320.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9330.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9340.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9340.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9350.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9370.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9390.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9410.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9420.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9430.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9440.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9450.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9450.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9460.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9460.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9460.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9470.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9470.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9480.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9480.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9490.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9490.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9500.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9500.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9510.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9510.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9520.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9520.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9530.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9530.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9540.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9540.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9540.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9550.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9550.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9560.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9560.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9570.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9570.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9580.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9580.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9590.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9590.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9590.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9600.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9610.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9610.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9620.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9630.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9640.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9640.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9640.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9650.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9650.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9660.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9670.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9670.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9680.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9680.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9690.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9700.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9700.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9710.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9710.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9720.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9720.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9720.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9730.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9740.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9740.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9750.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9760.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9760.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9770.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9780.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9790.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9790.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9800.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9800.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9810.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9810.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9820.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9820.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9830.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9830.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9840.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9840.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9850.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9850.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9860.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9860.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9870.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9870.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9880.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9890.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9890.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9890.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9900.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9900.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9900.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9910.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9910.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9920.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9930.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9940.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9940.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9950.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9950.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9950.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9960.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9960.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9970.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9970.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9970.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9980.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9980.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9980.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+9990.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+9990.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+9990.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10000.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10000.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10010.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10010.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10020.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10020.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10030.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10040.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10040.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10050.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10050.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10060.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10060.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10070.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10070.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10080.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10080.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10090.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10090.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10090.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10100.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10100.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10110.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10120.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10120.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10120.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10130.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10140.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10140.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10150.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10160.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10170.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10170.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10170.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10180.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10180.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10190.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10190.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10190.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10200.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10200.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10210.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10220.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10220.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10230.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10230.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10240.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10250.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10250.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10260.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10260.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10270.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10270.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10280.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10280.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10280.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10290.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10290.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10290.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10300.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10300.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10310.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10320.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10320.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10330.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10330.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10340.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10340.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10340.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10350.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10350.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10360.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10360.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10370.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10380.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10390.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10390.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10410.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10420.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10430.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10440.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10450.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10460.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10460.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10460.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10470.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10470.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10480.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10480.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10490.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10490.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10490.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10500.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10500.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10500.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10510.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10510.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10510.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10520.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10520.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10520.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10530.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10530.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10530.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10540.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10540.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10540.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10550.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10550.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10560.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10560.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10570.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10570.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10580.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10580.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10590.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10590.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10600.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10600.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10600.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10610.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10610.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10620.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10620.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10630.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10630.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10640.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10640.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10640.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10640.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+10650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10650.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10650.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10660.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10670.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10670.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10680.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10680.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10690.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10690.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10700.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10700.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10710.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10720.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10720.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10720.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10730.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10740.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10740.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10750.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10760.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10760.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10770.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10770.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10780.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10780.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10790.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10800.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10810.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10810.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10820.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10820.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10830.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10830.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10840.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10840.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10850.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10850.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10860.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10860.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10870.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10870.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10880.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10890.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10890.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10890.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10900.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10900.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10900.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10910.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10910.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10920.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10930.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10930.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10940.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10940.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10950.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10950.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10950.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10960.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10960.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10970.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10970.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10970.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10980.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10980.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10980.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+10990.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+10990.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+10990.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11000.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11000.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11010.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11010.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11020.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11020.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11030.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11030.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11040.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11040.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11050.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11050.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11060.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11060.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11070.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11070.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11080.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11080.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11090.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11090.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11090.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11100.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11100.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11100.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11110.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11110.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11120.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11120.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11120.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11130.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11140.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11150.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11160.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11170.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11170.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11170.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11180.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11180.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11190.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11190.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11190.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11200.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11200.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11210.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11210.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11220.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11220.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11220.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11230.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11230.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11240.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11250.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11250.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11260.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11270.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11270.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11280.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11280.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11280.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11290.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11290.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11290.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11300.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11300.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11310.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11320.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11320.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11330.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11330.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11340.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11340.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11340.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11350.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11350.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11360.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11360.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11370.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11380.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11390.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11410.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11410.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11410.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11420.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11420.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11420.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11430.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11430.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11430.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11440.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11440.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11440.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11450.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11450.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11460.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11460.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11460.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11470.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11470.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11470.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11480.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11480.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11480.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11490.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11490.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11490.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11500.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11500.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11500.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11510.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11510.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11510.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11520.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11520.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11520.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11530.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11530.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11540.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11540.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11540.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11550.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11550.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11550.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11560.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11560.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11560.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11570.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11570.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11580.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11580.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11580.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11590.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11590.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11590.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11600.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11600.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11610.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11610.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11610.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11620.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11620.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11620.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11630.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11630.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11630.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11640.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11640.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11650.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11650.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11650.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11660.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11660.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11660.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11670.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11670.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11670.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11680.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11680.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11690.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11690.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11690.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11700.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11700.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11700.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11710.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11710.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11710.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11720.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11720.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11720.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11730.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11730.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11730.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11740.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11740.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11740.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11750.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11750.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11750.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11760.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11760.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11760.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11770.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11770.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11770.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11780.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11780.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11780.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11790.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11790.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11790.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11800.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11800.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11800.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11810.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11810.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11810.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11820.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11820.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11820.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11830.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11830.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11830.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11840.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11840.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11840.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11850.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11850.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11850.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11860.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11860.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11860.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11870.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11870.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11870.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11880.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11880.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11880.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11890.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11890.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11890.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11900.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11900.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11900.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11910.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11910.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11910.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11920.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11920.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11920.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11930.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11930.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11930.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11940.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11940.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11940.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11950.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11950.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11950.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11960.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11960.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11960.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11970.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11970.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11970.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11980.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11980.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11980.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+11990.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+11990.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+11990.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12000.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12000.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12000.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12010.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12010.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12010.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12020.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12020.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12030.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12030.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12040.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12040.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12040.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12050.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12050.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12050.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12060.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12060.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12060.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12070.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12070.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12070.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12080.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12080.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12090.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12090.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12100.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12100.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12100.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12110.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12110.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12110.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12110.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+12120.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12120.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12120.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12120.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+12130.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12130.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12130.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12130.0,ThrottleController,A1,Desired speed is invalid or outside allowable range.
+12140.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12140.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12140.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12150.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12150.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12150.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12160.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12160.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12160.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12170.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12170.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12170.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12180.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12180.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12180.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12190.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12190.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12200.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12200.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12200.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12210.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12210.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12210.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12220.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12220.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12220.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12230.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12230.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12230.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12240.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12240.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12240.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12250.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12250.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12250.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12260.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12260.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12260.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12270.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12270.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12270.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12280.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12280.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12280.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12290.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12290.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12290.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12300.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12300.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12300.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12310.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12310.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12310.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12320.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12320.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12320.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12330.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12330.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12340.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12340.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12340.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12350.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12350.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12350.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12360.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12360.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12360.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12370.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12370.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12370.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12380.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12380.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12380.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12390.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12390.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12390.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12400.0,EnvironmentalLoads,A2,Environmental parameters out of valid modelled range.
+12400.0,EnvironmentalLoads,G2,Environmental forces exceed defined envelope.
+12400.0,HeadingController,G1,Cross-track error exceeds allowed limit.
+12400.0,SystemLevel,G3,Navigation success criteria not satisfied.

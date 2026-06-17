@@ -2,14 +2,11 @@
 # 3. Machinery Contract
 # ---------------------------------------------------------------------------
 
-
 from typing import Dict, Optional, Sequence
 import numpy as np
-import os
-import csv
-import json
 
 from contracts.helpers import _is_finite_array, ViolationLogger
+
 
 class MachineryContract:
     NAME = "Machinery"
@@ -19,12 +16,13 @@ class MachineryContract:
         "G1": "Thrust force from machinery is invalid.",
         "G2": "Power demand exceeds available machinery power.",
         "G3": "Thrust or power change rate exceeds allowed limits.",
+        "G4": "Active machinery mode is infeasible for the current engine availability.",
     }
 
     def __init__(
         self,
         shaft_speed: np.ndarray,
-        mode_sequence: Sequence[int],
+        mode_sequence: Sequence,
         mode_switch_times: Sequence[float],
         dwell_time_min: float,
         thrust_force: np.ndarray,
@@ -32,6 +30,8 @@ class MachineryContract:
         power_available: np.ndarray,
         rate_limit_thrust: float,
         rate_limit_power: float,
+        mode_feasible: Optional[bool] = None,
+        switch_event_active: bool = False,
     ):
         self.shaft_speed = shaft_speed
         self.mode_sequence = mode_sequence
@@ -42,43 +42,49 @@ class MachineryContract:
         self.power_available = power_available
         self.rate_limit_thrust = rate_limit_thrust
         self.rate_limit_power = rate_limit_power
-        self.contract_status = {"A1": None, "A2": None, "G1": None, "G2": None, "G3": None}
+        self.mode_feasible = mode_feasible
+        self.switch_event_active = bool(switch_event_active)
+        self.contract_status = {
+            "A1": None,
+            "A2": None,
+            "G1": None,
+            "G2": None,
+            "G3": None,
+            "G4": None,
+        }
 
     def check_A1(self):
         self.contract_status["A1"] = _is_finite_array(self.shaft_speed)
         return self.contract_status["A1"]
 
     def check_A2(self):
-        times = np.asarray(self.mode_switch_times)
-        if times.size <= 1:
+        """Evaluate dwell-time only when a new switch occurs.
+
+        This avoids turning one early chatter event into a persistent timestep-wise
+        violation for the remainder of the run.
+        """
+        times = np.asarray(self.mode_switch_times, dtype=float)
+        if (not self.switch_event_active) or times.size <= 1:
             ok_dwell = True
         else:
-            dt = np.diff(times)
-            ok_dwell = bool(np.all(dt >= self.dwell_time_min))
+            latest_dwell = float(times[-1] - times[-2])
+            ok_dwell = bool(latest_dwell >= self.dwell_time_min)
         self.contract_status["A2"] = ok_dwell
         return self.contract_status["A2"]
 
     def check_G1(self):
-        # if not all(self.contract_status[a] for a in ["A1", "A2"]):
-        #     self.contract_status["G1"] = None
-        #     return None
         self.contract_status["G1"] = _is_finite_array(self.thrust_force)
         return self.contract_status["G1"]
 
     def check_G2(self):
-        # if not all(self.contract_status[a] for a in ["A1", "A2"]):
-        #     self.contract_status["G2"] = None
-        #     return None
-        self.contract_status["G2"] = bool(np.all(self.power_demand <= self.power_available))
+        demand = np.asarray(self.power_demand, dtype=float)
+        available = np.asarray(self.power_available, dtype=float)
+        self.contract_status["G2"] = bool(np.all(demand <= available))
         return self.contract_status["G2"]
 
     def check_G3(self):
-        # if not all(self.contract_status[a] for a in ["A1", "A2"]):
-        #     self.contract_status["G3"] = None
-        #     return None
-
         def _rate_limited(x, limit):
-            x = np.asarray(x)
+            x = np.asarray(x, dtype=float)
             if x.size < 2:
                 return True
             dx = np.abs(np.diff(x))
@@ -88,6 +94,13 @@ class MachineryContract:
         ok_power = _rate_limited(self.power_demand, self.rate_limit_power)
         self.contract_status["G3"] = ok_thrust and ok_power
         return self.contract_status["G3"]
+
+    def check_G4(self):
+        if self.mode_feasible is None:
+            self.contract_status["G4"] = None
+        else:
+            self.contract_status["G4"] = bool(self.mode_feasible)
+        return self.contract_status["G4"]
 
     def evaluate(
         self,
@@ -100,6 +113,7 @@ class MachineryContract:
         self.check_G1()
         self.check_G2()
         self.check_G3()
+        self.check_G4()
 
         if logger is not None and t is not None:
             for clause, value in self.contract_status.items():
@@ -107,9 +121,11 @@ class MachineryContract:
                     msg = self.MESSAGES.get(
                         clause, f"{self.NAME} contract {clause} violated."
                     )
-                    logger.log(time=t,
-                               subsystem=self.NAME,
-                               contract_id=clause,
-                               message=msg)
+                    logger.log(
+                        time=t,
+                        subsystem=self.NAME,
+                        contract_id=clause,
+                        message=msg,
+                    )
 
         return self.contract_status

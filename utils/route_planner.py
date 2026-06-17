@@ -13,18 +13,20 @@ from get_path import get_ship_route_path, get_map_path
 from prepare_map import get_gdf_from_gpkg
 
 # ============ USER KNOBS ============
-ROUTE_FILENAME = "new_route.txt"  # without directories; will save under data/route/
+ROUTE_FILENAME = "Trondheim_Kristiansund_TS8.txt"  # without directories; will save under data/route/
 PRINT_INIT_MSG = True             # small debug prints
 POINT_MARKER_SIZE = 160           # big for visibility
 LABEL_FONTSIZE = 10
 
 # GPKG layers
-GPKG_PATH   = get_map_path(ROOT, "Stangvik.gpkg")
+GPKG_PATH   = get_map_path(ROOT, "Trondheim_Kristiansund.gpkg")
 FRAME_LAYER = "frame_3857"
 OCEAN_LAYER = "ocean_3857"
 LAND_LAYER  = "land_3857"
 COAST_LAYER = "coast_3857"   # optional
 WATER_LAYER = "water_3857"   # optional
+FERRY_ROUTE_LAYER  = "ferry_routes_3857" #OPTIONAL
+
 
 # -----------------------------------
 
@@ -200,8 +202,8 @@ class RoutePicker:
 
 def main():
     # ----- Basemap -----
-    frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf = get_gdf_from_gpkg(
-        GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER
+    frame_gdf, ocean_gdf, land_gdf, coast_gdf, water_gdf, ferry_route_gdf = get_gdf_from_gpkg(
+        GPKG_PATH, FRAME_LAYER, OCEAN_LAYER, LAND_LAYER, COAST_LAYER, WATER_LAYER, FERRY_ROUTE_LAYER
     )
 
     fig, ax = plt.subplots(figsize=(12, 8))
@@ -214,6 +216,8 @@ def main():
         water_gdf.plot(ax=ax, facecolor="#a0c8f0", edgecolor="#74a8d8", linewidth=0.4, alpha=0.95, zorder=2)
     if not coast_gdf.empty:
         coast_gdf.plot(ax=ax, color="#2f7f3f", linewidth=1.0, zorder=3)
+    if not ferry_route_gdf.empty:
+        ferry_route_gdf.plot(ax=ax, color="orange", linewidth=1.2, zorder=3)
 
     minx, miny, maxx, maxy = frame_gdf.total_bounds
     ax.set_xlim(minx, maxx); ax.set_ylim(miny, maxy)
