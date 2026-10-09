@@ -138,9 +138,9 @@ def build_arg_parser() -> argparse.ArgumentParser:
                         help="Plot/animate the last episode. For campaigns, leave this off.")
     parser.add_argument("--save_episode_results", action="store_true", default=False,
                         help="Save one csv per asset for every episode.")
-    parser.add_argument("--n_fault_events", type=int, default=20,
+    parser.add_argument("--n_fault_events", type=int, default=1,
                         help="Number of own-ship fault events to sample per episode (default: 4)")
-    parser.add_argument('--enable_fallback', action='store_true', default=True, 
+    parser.add_argument('--enable_fallback', action='store_true', default=False, 
                         help='Enable fallback behavior when primary control mode fails')
     return parser
 

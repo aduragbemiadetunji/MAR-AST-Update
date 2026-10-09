@@ -363,7 +363,7 @@ def plot_ship_status(asset, result_df, plot_env_load=False, show=False, profile=
     if profile in ("paper", "paper_baseline"):
         include_fault_overlays = has_faults
         include_mode_annotations = False
-        fig_1, axes = plt.subplots(nrows=2, ncols=3, figsize=(12, 6.8), sharex=True, constrained_layout=True)
+        fig_1, axes = plt.subplots(nrows=1, ncols=3, figsize=(12, 3.4), sharex=True, constrained_layout=True)
         axes = axes.flatten()
 
         speed = np.sqrt(result_df['forward speed [m/s]']**2 + result_df['sideways speed [m/s]']**2)
@@ -374,35 +374,35 @@ def plot_ship_status(asset, result_df, plot_env_load=False, show=False, profile=
         _maybe_fault_and_mode(axes[0], t, result_df, include_fault_overlays, include_mode_annotations)
         axes[0].legend(loc='upper right', frameon=False, fontsize=8)
 
-        axes[1].plot(t, result_df['cross track error [m]'])
-        axes[1].axhline(y=0.0, color='red', linestyle='--', linewidth=1.1)
-        if hasattr(asset.ship_model, 'cross_track_error_tolerance'):
-            tol = asset.ship_model.cross_track_error_tolerance
-            axes[1].axhline(y=tol, color='0.45', linestyle=':', linewidth=0.9)
-            axes[1].axhline(y=-tol, color='0.45', linestyle=':', linewidth=0.9)
-        axes[1].set_title('Cross-track error')
-        _ax_style(axes[1], ylabel='Error (m)')
-        _maybe_fault_and_mode(axes[1], t, result_df, include_fault_overlays, include_mode_annotations)
+        # axes[1].plot(t, result_df['cross track error [m]'])
+        # axes[1].axhline(y=0.0, color='red', linestyle='--', linewidth=1.1)
+        # if hasattr(asset.ship_model, 'cross_track_error_tolerance'):
+        #     tol = asset.ship_model.cross_track_error_tolerance
+        #     axes[1].axhline(y=tol, color='0.45', linestyle=':', linewidth=0.9)
+        #     axes[1].axhline(y=-tol, color='0.45', linestyle=':', linewidth=0.9)
+        # axes[1].set_title('Cross-track error')
+        # _ax_style(axes[1], ylabel='Error (m)')
+        # _maybe_fault_and_mode(axes[1], t, result_df, include_fault_overlays, include_mode_annotations)
 
-        yaw = wrap_angle_deg(result_df['yaw angle [deg]'])
-        axes[2].plot(t, yaw)
-        axes[2].axhline(y=0.0, color='red', linestyle='--', linewidth=1.1)
-        axes[2].set_title('Yaw')
-        _ax_style(axes[2], ylabel='Yaw (deg)')
-        axes[2].set_ylim(-180.0, 180.0)
-        _maybe_fault_and_mode(axes[2], t, result_df, include_fault_overlays, include_mode_annotations)
+        # yaw = wrap_angle_deg(result_df['yaw angle [deg]'])
+        # axes[2].plot(t, yaw)
+        # axes[2].axhline(y=0.0, color='red', linestyle='--', linewidth=1.1)
+        # axes[2].set_title('Yaw')
+        # _ax_style(axes[2], ylabel='Yaw (deg)')
+        # axes[2].set_ylim(-180.0, 180.0)
+        # _maybe_fault_and_mode(axes[2], t, result_df, include_fault_overlays, include_mode_annotations)
 
         rud_lim = np.rad2deg(asset.ship_model.ship_machinery_model.rudder_ang_max)
-        axes[3].plot(t, result_df['rudder angle [deg]'])
-        axes[3].axhline(y=0.0, color='red', linestyle='--', linewidth=1.1)
-        axes[3].axhline(y=rud_lim, color='0.45', linestyle=':', linewidth=0.9)
-        axes[3].axhline(y=-rud_lim, color='0.45', linestyle=':', linewidth=0.9)
-        axes[3].set_title('Rudder')
-        _ax_style(axes[3], xlabel=True, ylabel='Rudder (deg)')
-        axes[3].set_ylim(-rud_lim, rud_lim)
-        _maybe_fault_and_mode(axes[3], t, result_df, include_fault_overlays, include_mode_annotations)
+        axes[1].plot(t, result_df['rudder angle [deg]'])
+        axes[1].axhline(y=0.0, color='red', linestyle='--', linewidth=1.1)
+        axes[1].axhline(y=rud_lim, color='0.45', linestyle=':', linewidth=0.9)
+        axes[1].axhline(y=-rud_lim, color='0.45', linestyle=':', linewidth=0.9)
+        axes[1].set_title('Rudder')
+        _ax_style(axes[1], xlabel=True, ylabel='Rudder (deg)')
+        axes[1].set_ylim(-rud_lim, rud_lim)
+        _maybe_fault_and_mode(axes[1], t, result_df, include_fault_overlays, include_mode_annotations)
 
-        axp = axes[4]
+        axp = axes[2]
         mech_power = _series_if_exists(result_df, 'power me [kw]')
         mech_avail = _series_if_exists(result_df, 'available power me [kw]')
         elec_power = _series_if_exists(result_df, 'power electrical [kw]')
@@ -423,10 +423,10 @@ def plot_ship_status(asset, result_df, plot_env_load=False, show=False, profile=
         _maybe_fault_and_mode(axp, t, result_df, include_fault_overlays, include_mode_annotations)
         axp.legend(loc='best', frameon=False, fontsize=8)
 
-        axes[5].plot(t, result_df['fuel consumption [kg]'])
-        axes[5].set_title('Fuel')
-        _ax_style(axes[5], xlabel=True, ylabel='Fuel (kg)')
-        _maybe_fault_and_mode(axes[5], t, result_df, include_fault_overlays, include_mode_annotations)
+        # axes[5].plot(t, result_df['fuel consumption [kg]'])
+        # axes[5].set_title('Fuel')
+        # _ax_style(axes[5], xlabel=True, ylabel='Fuel (kg)')
+        # _maybe_fault_and_mode(axes[5], t, result_df, include_fault_overlays, include_mode_annotations)
 
         # Optional extra figures only when informative
         if has_switches and profile == "paper_fault":

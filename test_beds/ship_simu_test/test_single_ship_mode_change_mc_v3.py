@@ -76,15 +76,15 @@ parser.add_argument('--n_episodes', type=int, default=1, metavar='N_EPISODES',
 parser.add_argument(
     '--fault_mode',
     type=str,
-    default='monte_carlo',
-    choices=['none', 'deterministic', 'monte_carlo'],
+    default='none',
+    choices=['none', 'deterministic', 'monte_carlo', 'fixed'], #fixed is for testing a specific fault scenario
     help='Fault injection mode'
 )
 
 parser.add_argument(
     '--n_faults',
     type=int,
-    default=20,
+    default=1,
     help='Number of randomly generated fault events for monte_carlo mode'
 )
 
@@ -137,12 +137,21 @@ parser.add_argument(
 
 parser.add_argument(
     '--enable_fallback',
-    action='store_true',
+    action=argparse.BooleanOptionalAction,
     default=True,
     help='Enable fallback behavior when primary control mode fails'
 )
 parser.add_argument("--simulation_time", type=float, default=35000.0, metavar="SIM_TIME",
                         help="Simulation time in seconds for all assets")
+
+
+#EDITING: parse more arguments
+parser.add_argument("--scenario_start_s", type=float, default=2000.0)
+parser.add_argument("--fault_delay_s", type=float, default=500.0)
+parser.add_argument("--fixed_fault_duration_s", type=float, default=1000.0)
+parser.add_argument("--fixed_fault_mask", type=str, default="ME")
+parser.add_argument("--post_fault_observation_s", type=float, default=900.0)
+parser.add_argument("--terminate_after_fault_response", action="store_true")
 
 
 
@@ -511,6 +520,30 @@ last_assets = None
 last_result_dfs = None
 
 
+
+class FixedFaultScenario:
+    def __init__(self, start_s, duration_s, failed_components):
+        self.start_s = float(start_s)
+        self.duration_s = float(duration_s)
+        self.end_s = self.start_s + self.duration_s
+        self.fault_mask = {
+            "ME": "ME" in failed_components,
+            "DG1": "DG1" in failed_components,
+            "DG2": "DG2" in failed_components,
+            "HSG": "HSG" in failed_components,
+        }
+
+    def engine_status(self, t):
+        status = {"ME": True, "DG1": True, "DG2": True, "HSG": True}
+
+        if self.start_s <= t < self.end_s:
+            for component, failed in self.fault_mask.items():
+                if failed:
+                    status[component] = False
+
+        return status
+
+
 def propulsion_fraction_from_mode(current_mode, engine_status):
     mode = str(current_mode).upper()
 
@@ -660,6 +693,30 @@ while episode <= args.n_episodes:
                 f"mask={ev.fault_mask}"
             )
 
+    elif args.fault_mode == "fixed":
+        failed_components = {
+            item.strip().upper()
+            for item in args.fixed_fault_mask.split(",")
+            if item.strip()
+        }
+
+        fault_start_abs_s = args.scenario_start_s + args.fault_delay_s
+
+        scenario = FixedFaultScenario(
+            start_s=fault_start_abs_s,
+            duration_s=args.fixed_fault_duration_s,
+            failed_components=failed_components,
+        )
+
+        print(
+            f"[EP {episode}] fixed local disturbance | "
+            f"scenario_start={args.scenario_start_s:.1f}s | "
+            f"fault_start_abs={scenario.start_s:.1f}s | "
+            f"fault_delay={args.fault_delay_s:.1f}s | "
+            f"duration={scenario.duration_s:.1f}s | "
+            f"mask={scenario.fault_mask}"
+        )
+
 
 
     # Initial engine availability (later: this will be updated by fault injection)
@@ -732,7 +789,7 @@ while episode <= args.n_episodes:
         # --- build "power demand" (simple placeholder, refine later) ---
         required_hotel_power = machinery_config.hotel_load
         # required_propulsion_power = 0.6 * main_engine_capacity if assets[0].ship_model.desired_speed > 0 else 0.0
-        required_propulsion_power = assets[0].ship_model.simulation_results['propulsion power [kw]'][-1]
+        required_propulsion_power = 1000 * assets[0].ship_model.simulation_results['propulsion power [kw]'][-1]
         # print(assets[0].ship_model.simulation_results['propulsion power [kw]'][-1])
 
 
@@ -794,6 +851,22 @@ while episode <= args.n_episodes:
         # Update running time after stepping
         running_time = np.max([asset.ship_model.int.time for asset in assets])
 
+        fault_start_abs_s = args.scenario_start_s + args.fault_delay_s
+        fault_end_abs_s = fault_start_abs_s + args.fixed_fault_duration_s
+        episode_stop_s = fault_end_abs_s + args.post_fault_observation_s
+
+
+        if args.terminate_after_fault_response and running_time >= episode_stop_s:
+            # max_response_end_s = scenario.end_s + args.post_fault_observation_s
+            # if running_time >= max_response_end_s:
+            print(
+                f"[EP {episode}] terminating local disturbance scenario at "
+                f"t={running_time:.1f}s "
+                f"(fault_end={scenario.end_s:.1f}s, "
+                f"post_fault_observation={args.post_fault_observation_s:.1f}s)"
+            )
+            break
+
 
     own_ship_results_df = pd.DataFrame.from_dict(env.assets[0].ship_model.simulation_results)
 
@@ -841,8 +914,20 @@ while episode <= args.n_episodes:
     viol_csv_path = save_dir / f"violations_episode_{episode:03d}_seed_{episode_seed}.csv"
     logger = ViolationLogger(str(viol_csv_path), append=False)
 
+
+    scenario_df = own_ship_results_df[
+        (own_ship_results_df["time [s]"] >= args.scenario_start_s)
+        & (own_ship_results_df["time [s]"] <= episode_stop_s)
+    ].copy()
+
+    scenario_df["scenario time [s]"] = (
+        scenario_df["time [s]"] - args.scenario_start_s
+    )
+
+
     evaluate_contracts_over_dataframe(
-        own_ship_results_df,
+        # own_ship_results_df,#for entire dataframe
+        scenario_df, #for scenario dataframe
         env,
         logger,
         run_id=f"episode_{episode:03d}_seed_{episode_seed}"
@@ -853,11 +938,16 @@ while episode <= args.n_episodes:
     except Exception:
         viol_df = pd.DataFrame()
 
+
+    print(len(own_ship_results_df))
+    print('----------------------')
+    print(len(scenario_df))
+
     
 
-    scenario_json_path = save_dir / f"scenario_episode_{episode:03d}_seed_{episode_seed}.json"
-    with open(scenario_json_path, "w", encoding="utf-8") as f:
-        json.dump(scenario_to_jsonable(scenario), f, indent=2)
+    # scenario_json_path = save_dir / f"scenario_episode_{episode:03d}_seed_{episode_seed}.json"
+    # with open(scenario_json_path, "w", encoding="utf-8") as f:
+    #     json.dump(scenario_to_jsonable(scenario), f, indent=2)
 
 
     mode_series = own_ship_results_df["operating mode"].astype(str)
@@ -907,6 +997,10 @@ while episode <= args.n_episodes:
     if should_save_timeseries:
         timeseries_path = save_dir / f"timeseries_episode_{episode:03d}_seed_{episode_seed}.csv"
         own_ship_results_df.to_csv(timeseries_path, index=False)
+
+
+    # scenario_timeseries_path = save_dir / f"scenario_timeseries_episode_{episode:03d}_seed_{episode_seed}.csv"
+    # scenario_df.to_csv(scenario_timeseries_path, index=False)
     
 
 
